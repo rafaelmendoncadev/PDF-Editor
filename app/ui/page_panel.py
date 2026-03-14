@@ -30,6 +30,7 @@ class PagePanel(ctk.CTkScrollableFrame):
         self._on_page_selected: Optional[Callable[[int], None]] = None
         self._selected_index: int = 0
         self._buttons: List[ctk.CTkButton] = []
+        self._images: List[CTkImage] = []  # prevent GC of CTkImage objects
 
     # ------------------------------------------------------------------
     # Public API
@@ -70,6 +71,7 @@ class PagePanel(ctk.CTkScrollableFrame):
         for btn in self._buttons:
             btn.destroy()
         self._buttons = []
+        self._images = []
 
     def _add_thumbnail(self, index: int, img: Image.Image) -> None:
         """Create and pack a single thumbnail button for page *index*."""
@@ -80,6 +82,8 @@ class PagePanel(ctk.CTkScrollableFrame):
             dark_image=img,
             size=(img.width, img.height),
         )
+        # Keep a strong reference so the image is not garbage-collected
+        self._images.append(ctk_img)
 
         btn = ctk.CTkButton(
             self,

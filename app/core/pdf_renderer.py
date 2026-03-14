@@ -5,6 +5,8 @@ Stateless; can be called from any thread.
 
 from __future__ import annotations
 
+import io
+
 import fitz  # PyMuPDF
 from PIL import Image
 
@@ -29,12 +31,25 @@ class PDFRenderer:
         zoom = dpi / 72.0  # fitz default is 72 DPI
         matrix = fitz.Matrix(zoom, zoom)
         pixmap = page.get_pixmap(matrix=matrix, alpha=False)
-        # Convert to PIL Image via raw bytes
+
+        # Convert to PIL Image respecting pixmap stride.
+        # pixmap.stride may differ from pixmap.width * pixmap.n due to
+        # row-alignment padding.  Using the "raw" decoder with an explicit
+        # stride avoids the scrambled-image artefact that occurs whenever
+        # stride != width * 3.
+        mode = "RGBA" if pixmap.alpha else "RGB"
+        raw_mode = mode
         image = Image.frombytes(
-            mode="RGB",
-            size=(pixmap.width, pixmap.height),
-            data=pixmap.samples,
+            mode,
+            (pixmap.width, pixmap.height),
+            pixmap.samples,
+            "raw",
+            raw_mode,
+            pixmap.stride,
+            1,
         )
+        if mode != "RGB":
+            image = image.convert("RGB")
         return image
 
     def render_thumbnail(self, page: fitz.Page) -> Image.Image:
