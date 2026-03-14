@@ -1,0 +1,586 @@
+2026-03-13 18:51:56,922 - app.ui.main_window - INFO - === Starting PDF to Word conversion ===
+2026-03-13 18:51:56,922 - app.ui.main_window - INFO - PDF path: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 18:51:56,924 - app.ui.main_window - INFO - Starting conversion thread
+2026-03-13 18:51:56,924 - app.ui.main_window - INFO - Conversion thread started
+2026-03-13 18:51:56,924 - app.ui.main_window - INFO - Calling convert_to_temp...
+2026-03-13 18:51:56,925 - app.core.pdf_to_word_converter - INFO - === Converting to temporary file ===
+2026-03-13 18:51:56,925 - app.core.pdf_to_word_converter - INFO - Creating temporary file...
+2026-03-13 18:51:56,927 - app.core.pdf_to_word_converter - INFO - Temp file path: C:\Users\Rafael\AppData\Local\Temp\tmpj916xygw_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 18:51:56,927 - app.core.pdf_to_word_converter - INFO - Temp file removed for fresh creation
+2026-03-13 18:51:56,927 - app.core.pdf_to_word_converter - INFO - === Starting PDF to Word conversion ===
+2026-03-13 18:51:56,927 - app.core.pdf_to_word_converter - INFO - Input: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 18:51:56,927 - app.core.pdf_to_word_converter - INFO - Output: C:\Users\Rafael\AppData\Local\Temp\tmpj916xygw_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 18:51:56,927 - app.core.pdf_to_word_converter - INFO - Page range: 0-None
+2026-03-13 18:51:56,927 - app.core.pdf_to_word_converter - INFO - === Starting conversion process ===
+2026-03-13 18:51:56,927 - app.core.pdf_to_word_converter - INFO - Importing pdf2docx and PyMuPDF...
+2026-03-13 18:51:57,098 - app.core.pdf_to_word_converter - INFO - Libraries imported successfully
+2026-03-13 18:51:57,098 - app.core.pdf_to_word_converter - INFO - Opening PDF: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 18:51:57,099 - app.core.pdf_to_word_converter - INFO - PDF has 1 pages
+2026-03-13 18:51:57,099 - app.core.pdf_to_word_converter - INFO - Converting pages 0 to 1 (total: 1 pages)
+2026-03-13 18:51:57,099 - app.ui.main_window - DEBUG - Progress: 10.0% - Initializing conversion...
+2026-03-13 18:51:57,099 - app.ui.main_window - DEBUG - Progress: 20.0% - Converting 1 pages...
+2026-03-13 18:51:57,099 - app.core.pdf_to_word_converter - INFO - Creating pdf2docx Converter...
+2026-03-13 18:51:57,100 - app.core.pdf_to_word_converter - INFO - Converter created successfully
+2026-03-13 18:51:57,100 - app.ui.main_window - DEBUG - Progress: 30.0% - Processing PDF structure...
+2026-03-13 18:51:57,100 - app.core.pdf_to_word_converter - INFO - Starting pdf2docx conversion...
+2026-03-13 18:51:57,100 - root - INFO - Start to convert C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 18:51:57,101 - root - INFO - [1;36m[1/4] Opening document...[0m
+2026-03-13 18:51:57,101 - root - INFO - [1;36m[2/4] Analyzing document...[0m
+2026-03-13 18:51:57,181 - root - INFO - [1;36m[3/4] Parsing pages...[0m
+2026-03-13 18:51:57,181 - root - INFO - (1/1) Page 1
+2026-03-13 18:51:57,213 - root - INFO - [1;36m[4/4] Creating pages...[0m
+2026-03-13 18:51:57,231 - root - INFO - (1/1) Page 1
+2026-03-13 18:51:57,333 - root - INFO - Terminated in 0.23s.
+2026-03-13 18:51:57,333 - app.core.pdf_to_word_converter - INFO - Converter closed
+2026-03-13 18:51:57,333 - app.ui.main_window - DEBUG - Progress: 90.0% - Finalizing DOCX file...
+2026-03-13 18:51:57,334 - app.core.pdf_to_word_converter - INFO - Checking if output file exists: C:\Users\Rafael\AppData\Local\Temp\tmpj916xygw_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 18:51:57,334 - app.core.pdf_to_word_converter - INFO - Output file created successfully: 37833 bytes
+2026-03-13 18:51:57,334 - app.ui.main_window - DEBUG - Progress: 100.0% - Conversion complete!
+2026-03-13 18:51:57,334 - app.core.pdf_to_word_converter - INFO - Conversion completed: success=True
+2026-03-13 18:51:57,334 - app.core.pdf_to_word_converter - INFO - convert_to_temp result: success=True, output=C:\Users\Rafael\AppData\Local\Temp\tmpj916xygw_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 18:51:57,334 - app.ui.main_window - INFO - Conversion result: success=True, output=C:\Users\Rafael\AppData\Local\Temp\tmpj916xygw_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 18:51:57,335 - app.ui.main_window - INFO - === Conversion callback received ===
+2026-03-13 18:51:57,335 - app.ui.main_window - INFO - Result: success=True, output_path=C:\Users\Rafael\AppData\Local\Temp\tmpj916xygw_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 18:51:57,335 - app.ui.main_window - INFO - Pages: 1/1
+2026-03-13 18:51:57,336 - app.ui.main_window - INFO - Opening Word editor dialog with: C:\Users\Rafael\AppData\Local\Temp\tmpj916xygw_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 18:51:57,336 - app.ui.main_window - INFO - Creating WordEditorDialog...
+2026-03-13 18:51:57,336 - app.ui.dialogs.word_editor_dialog - INFO - === Initializing WordEditorDialog ===
+2026-03-13 18:51:57,336 - app.ui.dialogs.word_editor_dialog - INFO - DOCX path: C:\Users\Rafael\AppData\Local\Temp\tmpj916xygw_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 18:51:57,336 - app.ui.dialogs.word_editor_dialog - INFO - Original PDF path: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 18:51:57,340 - app.ui.dialogs.word_editor_dialog - INFO - Building UI...
+2026-03-13 18:51:57,397 - app.ui.dialogs.word_editor_dialog - INFO - UI built successfully
+2026-03-13 18:51:57,397 - app.ui.dialogs.word_editor_dialog - INFO - Loading DOCX file...
+2026-03-13 18:51:57,397 - app.ui.dialogs.word_editor_dialog - INFO - === Loading DOCX file ===
+2026-03-13 18:51:57,397 - app.ui.dialogs.word_editor_dialog - INFO - Starting DOCX loading thread
+2026-03-13 18:51:57,398 - app.ui.dialogs.word_editor_dialog - INFO - DOCX loading thread started
+2026-03-13 18:51:57,398 - app.ui.dialogs.word_editor_dialog - INFO - Importing python-docx...
+2026-03-13 18:51:57,398 - app.ui.dialogs.word_editor_dialog - INFO - Centering on parent...
+2026-03-13 18:51:57,398 - app.ui.dialogs.word_editor_dialog - INFO - python-docx imported successfully
+2026-03-13 18:51:57,398 - app.ui.dialogs.word_editor_dialog - INFO - Opening DOCX file: C:\Users\Rafael\AppData\Local\Temp\tmpj916xygw_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 18:51:57,399 - app.ui.dialogs.word_editor_dialog - INFO - WordEditorDialog initialized successfully
+2026-03-13 18:51:57,399 - app.ui.main_window - INFO - WordEditorDialog created successfully
+2026-03-13 18:51:57,462 - app.ui.dialogs.word_editor_dialog - INFO - Document has 2 paragraphs
+2026-03-13 18:51:57,467 - app.ui.dialogs.word_editor_dialog - INFO - Loaded 2 paragraphs successfully
+2026-03-13 19:05:52,288 - app.ui.main_window - INFO - === Starting PDF to Word conversion ===
+2026-03-13 19:05:52,288 - app.ui.main_window - INFO - PDF path: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:05:52,290 - app.ui.main_window - INFO - Starting conversion thread
+2026-03-13 19:05:52,291 - app.ui.main_window - INFO - Conversion thread started
+2026-03-13 19:05:52,291 - app.ui.main_window - INFO - Calling convert_to_temp...
+2026-03-13 19:05:52,291 - app.core.pdf_to_word_converter - INFO - === Converting to temporary file ===
+2026-03-13 19:05:52,291 - app.core.pdf_to_word_converter - INFO - Creating temporary file...
+2026-03-13 19:05:52,293 - app.core.pdf_to_word_converter - INFO - Temp file path: C:\Users\Rafael\AppData\Local\Temp\tmpiuzgxhv2_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:05:52,294 - app.core.pdf_to_word_converter - INFO - Temp file removed for fresh creation
+2026-03-13 19:05:52,294 - app.core.pdf_to_word_converter - INFO - === Starting PDF to Word conversion ===
+2026-03-13 19:05:52,294 - app.core.pdf_to_word_converter - INFO - Input: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:05:52,294 - app.core.pdf_to_word_converter - INFO - Output: C:\Users\Rafael\AppData\Local\Temp\tmpiuzgxhv2_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:05:52,294 - app.core.pdf_to_word_converter - INFO - Page range: 0-None
+2026-03-13 19:05:52,294 - app.core.pdf_to_word_converter - INFO - === Starting conversion process ===
+2026-03-13 19:05:52,295 - app.core.pdf_to_word_converter - INFO - Importing pdf2docx and PyMuPDF...
+2026-03-13 19:05:52,663 - app.core.pdf_to_word_converter - INFO - Libraries imported successfully
+2026-03-13 19:05:52,663 - app.core.pdf_to_word_converter - INFO - Opening PDF: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:05:52,666 - app.core.pdf_to_word_converter - INFO - PDF has 1 pages
+2026-03-13 19:05:52,666 - app.core.pdf_to_word_converter - INFO - Converting pages 0 to 1 (total: 1 pages)
+2026-03-13 19:05:52,666 - app.ui.main_window - DEBUG - Progress: 10.0% - Initializing conversion...
+2026-03-13 19:05:52,666 - app.ui.main_window - DEBUG - Progress: 20.0% - Converting 1 pages...
+2026-03-13 19:05:52,667 - app.core.pdf_to_word_converter - INFO - Creating pdf2docx Converter...
+2026-03-13 19:05:52,668 - app.core.pdf_to_word_converter - INFO - Converter created successfully
+2026-03-13 19:05:52,668 - app.ui.main_window - DEBUG - Progress: 30.0% - Processing PDF structure...
+2026-03-13 19:05:52,669 - app.core.pdf_to_word_converter - INFO - Starting pdf2docx conversion...
+2026-03-13 19:05:52,669 - root - INFO - Start to convert C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:05:52,670 - root - INFO - [1;36m[1/4] Opening document...[0m
+2026-03-13 19:05:52,670 - root - INFO - [1;36m[2/4] Analyzing document...[0m
+2026-03-13 19:05:52,759 - root - INFO - [1;36m[3/4] Parsing pages...[0m
+2026-03-13 19:05:52,759 - root - INFO - (1/1) Page 1
+2026-03-13 19:05:52,788 - root - INFO - [1;36m[4/4] Creating pages...[0m
+2026-03-13 19:05:52,802 - root - INFO - (1/1) Page 1
+2026-03-13 19:05:52,910 - root - INFO - Terminated in 0.24s.
+2026-03-13 19:05:52,911 - app.core.pdf_to_word_converter - INFO - Converter closed
+2026-03-13 19:05:52,911 - app.ui.main_window - DEBUG - Progress: 90.0% - Finalizing DOCX file...
+2026-03-13 19:05:52,911 - app.core.pdf_to_word_converter - INFO - Checking if output file exists: C:\Users\Rafael\AppData\Local\Temp\tmpiuzgxhv2_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:05:52,911 - app.core.pdf_to_word_converter - INFO - Output file created successfully: 37833 bytes
+2026-03-13 19:05:52,911 - app.ui.main_window - DEBUG - Progress: 100.0% - Conversion complete!
+2026-03-13 19:05:52,912 - app.core.pdf_to_word_converter - INFO - Conversion completed: success=True
+2026-03-13 19:05:52,912 - app.core.pdf_to_word_converter - INFO - convert_to_temp result: success=True, output=C:\Users\Rafael\AppData\Local\Temp\tmpiuzgxhv2_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:05:52,912 - app.ui.main_window - INFO - Conversion result: success=True, output=C:\Users\Rafael\AppData\Local\Temp\tmpiuzgxhv2_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:05:52,912 - app.ui.main_window - INFO - === Conversion callback received ===
+2026-03-13 19:05:52,912 - app.ui.main_window - INFO - Result: success=True, output_path=C:\Users\Rafael\AppData\Local\Temp\tmpiuzgxhv2_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:05:52,912 - app.ui.main_window - INFO - Pages: 1/1
+2026-03-13 19:05:52,914 - app.ui.main_window - INFO - Opening Word editor dialog with: C:\Users\Rafael\AppData\Local\Temp\tmpiuzgxhv2_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:05:52,914 - app.ui.main_window - INFO - Creating WordEditorDialog...
+2026-03-13 19:05:52,914 - app.ui.dialogs.word_editor_dialog - INFO - === Initializing WordEditorDialog ===
+2026-03-13 19:05:52,914 - app.ui.dialogs.word_editor_dialog - INFO - DOCX path: C:\Users\Rafael\AppData\Local\Temp\tmpiuzgxhv2_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:05:52,914 - app.ui.dialogs.word_editor_dialog - INFO - Original PDF path: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:05:52,918 - app.ui.dialogs.word_editor_dialog - INFO - Building UI...
+2026-03-13 19:05:52,981 - app.ui.dialogs.word_editor_dialog - INFO - UI built successfully
+2026-03-13 19:05:52,981 - app.ui.dialogs.word_editor_dialog - INFO - Loading DOCX file...
+2026-03-13 19:05:52,981 - app.ui.dialogs.word_editor_dialog - INFO - === Loading DOCX file ===
+2026-03-13 19:05:52,981 - app.ui.dialogs.word_editor_dialog - INFO - Starting DOCX loading thread
+2026-03-13 19:05:52,982 - app.ui.dialogs.word_editor_dialog - INFO - DOCX loading thread started
+2026-03-13 19:05:52,982 - app.ui.dialogs.word_editor_dialog - INFO - Centering on parent...
+2026-03-13 19:05:52,982 - app.ui.dialogs.word_editor_dialog - INFO - Importing python-docx...
+2026-03-13 19:05:52,982 - app.ui.dialogs.word_editor_dialog - INFO - python-docx imported successfully
+2026-03-13 19:05:52,982 - app.ui.dialogs.word_editor_dialog - INFO - Opening DOCX file: C:\Users\Rafael\AppData\Local\Temp\tmpiuzgxhv2_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:05:52,982 - app.ui.dialogs.word_editor_dialog - INFO - WordEditorDialog initialized successfully
+2026-03-13 19:05:52,982 - app.ui.main_window - INFO - WordEditorDialog created successfully
+2026-03-13 19:05:53,038 - app.ui.dialogs.word_editor_dialog - INFO - Document has 2 paragraphs
+2026-03-13 19:05:53,043 - app.ui.dialogs.word_editor_dialog - INFO - Loaded 2 paragraphs successfully
+2026-03-13 19:09:23,033 - app.ui.main_window - INFO - === Starting PDF to Word conversion ===
+2026-03-13 19:09:23,034 - app.ui.main_window - INFO - PDF path: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:09:23,035 - app.ui.main_window - INFO - Starting conversion thread
+2026-03-13 19:09:23,036 - app.ui.main_window - INFO - Conversion thread started
+2026-03-13 19:09:23,036 - app.ui.main_window - INFO - Calling convert_to_temp...
+2026-03-13 19:09:23,036 - app.core.pdf_to_word_converter - INFO - === Converting to temporary file ===
+2026-03-13 19:09:23,036 - app.core.pdf_to_word_converter - INFO - Creating temporary file...
+2026-03-13 19:09:23,038 - app.core.pdf_to_word_converter - INFO - Temp file path: C:\Users\Rafael\AppData\Local\Temp\tmp_od521g7_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:09:23,039 - app.core.pdf_to_word_converter - INFO - Temp file removed for fresh creation
+2026-03-13 19:09:23,039 - app.core.pdf_to_word_converter - INFO - === Starting PDF to Word conversion ===
+2026-03-13 19:09:23,039 - app.core.pdf_to_word_converter - INFO - Input: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:09:23,039 - app.core.pdf_to_word_converter - INFO - Output: C:\Users\Rafael\AppData\Local\Temp\tmp_od521g7_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:09:23,039 - app.core.pdf_to_word_converter - INFO - Page range: 0-None
+2026-03-13 19:09:23,039 - app.core.pdf_to_word_converter - INFO - === Starting conversion process ===
+2026-03-13 19:09:23,039 - app.core.pdf_to_word_converter - INFO - Importing pdf2docx and PyMuPDF...
+2026-03-13 19:09:23,314 - app.core.pdf_to_word_converter - INFO - Libraries imported successfully
+2026-03-13 19:09:23,314 - app.core.pdf_to_word_converter - INFO - Opening PDF: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:09:23,315 - app.core.pdf_to_word_converter - INFO - PDF has 1 pages
+2026-03-13 19:09:23,316 - app.core.pdf_to_word_converter - INFO - Converting pages 0 to 1 (total: 1 pages)
+2026-03-13 19:09:23,316 - app.ui.main_window - DEBUG - Progress: 10.0% - Initializing conversion...
+2026-03-13 19:09:23,316 - app.ui.main_window - DEBUG - Progress: 20.0% - Converting 1 pages...
+2026-03-13 19:09:23,317 - app.core.pdf_to_word_converter - INFO - Creating pdf2docx Converter...
+2026-03-13 19:09:23,317 - app.core.pdf_to_word_converter - INFO - Converter created successfully
+2026-03-13 19:09:23,317 - app.ui.main_window - DEBUG - Progress: 30.0% - Processing PDF structure...
+2026-03-13 19:09:23,318 - app.core.pdf_to_word_converter - INFO - Starting pdf2docx conversion...
+2026-03-13 19:09:23,318 - root - INFO - Start to convert C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:09:23,319 - root - INFO - [1;36m[1/4] Opening document...[0m
+2026-03-13 19:09:23,319 - root - INFO - [1;36m[2/4] Analyzing document...[0m
+2026-03-13 19:09:23,406 - root - INFO - [1;36m[3/4] Parsing pages...[0m
+2026-03-13 19:09:23,406 - root - INFO - (1/1) Page 1
+2026-03-13 19:09:23,436 - root - INFO - [1;36m[4/4] Creating pages...[0m
+2026-03-13 19:09:23,453 - root - INFO - (1/1) Page 1
+2026-03-13 19:09:23,570 - root - INFO - Terminated in 0.25s.
+2026-03-13 19:09:23,570 - app.core.pdf_to_word_converter - INFO - Converter closed
+2026-03-13 19:09:23,570 - app.ui.main_window - DEBUG - Progress: 90.0% - Finalizing DOCX file...
+2026-03-13 19:09:23,570 - app.core.pdf_to_word_converter - INFO - Checking if output file exists: C:\Users\Rafael\AppData\Local\Temp\tmp_od521g7_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:09:23,571 - app.core.pdf_to_word_converter - INFO - Output file created successfully: 37833 bytes
+2026-03-13 19:09:23,571 - app.ui.main_window - DEBUG - Progress: 100.0% - Conversion complete!
+2026-03-13 19:09:23,571 - app.core.pdf_to_word_converter - INFO - Conversion completed: success=True
+2026-03-13 19:09:23,572 - app.core.pdf_to_word_converter - INFO - convert_to_temp result: success=True, output=C:\Users\Rafael\AppData\Local\Temp\tmp_od521g7_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:09:23,572 - app.ui.main_window - INFO - Conversion result: success=True, output=C:\Users\Rafael\AppData\Local\Temp\tmp_od521g7_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:09:23,572 - app.ui.main_window - INFO - === Conversion callback received ===
+2026-03-13 19:09:23,572 - app.ui.main_window - INFO - Result: success=True, output_path=C:\Users\Rafael\AppData\Local\Temp\tmp_od521g7_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:09:23,572 - app.ui.main_window - INFO - Pages: 1/1
+2026-03-13 19:09:23,575 - app.ui.main_window - INFO - Opening Word editor dialog with: C:\Users\Rafael\AppData\Local\Temp\tmp_od521g7_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:09:23,575 - app.ui.main_window - INFO - Creating WordEditorDialog...
+2026-03-13 19:09:23,575 - app.ui.dialogs.word_editor_dialog - INFO - === Initializing WordEditorDialog ===
+2026-03-13 19:09:23,575 - app.ui.dialogs.word_editor_dialog - INFO - DOCX path: C:\Users\Rafael\AppData\Local\Temp\tmp_od521g7_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:09:23,575 - app.ui.dialogs.word_editor_dialog - INFO - Original PDF path: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:09:23,581 - app.ui.dialogs.word_editor_dialog - INFO - Building UI...
+2026-03-13 19:09:23,652 - app.ui.dialogs.word_editor_dialog - INFO - UI built successfully
+2026-03-13 19:09:23,652 - app.ui.dialogs.word_editor_dialog - INFO - Loading DOCX file...
+2026-03-13 19:09:23,652 - app.ui.dialogs.word_editor_dialog - INFO - === Loading DOCX file ===
+2026-03-13 19:09:23,652 - app.ui.dialogs.word_editor_dialog - INFO - Starting DOCX loading thread
+2026-03-13 19:09:23,652 - app.ui.dialogs.word_editor_dialog - INFO - DOCX loading thread started
+2026-03-13 19:09:23,652 - app.ui.dialogs.word_editor_dialog - INFO - Centering on parent...
+2026-03-13 19:09:23,653 - app.ui.dialogs.word_editor_dialog - INFO - Importing python-docx...
+2026-03-13 19:09:23,653 - app.ui.dialogs.word_editor_dialog - INFO - python-docx imported successfully
+2026-03-13 19:09:23,653 - app.ui.dialogs.word_editor_dialog - INFO - Opening DOCX file: C:\Users\Rafael\AppData\Local\Temp\tmp_od521g7_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:09:23,653 - app.ui.dialogs.word_editor_dialog - INFO - WordEditorDialog initialized successfully
+2026-03-13 19:09:23,653 - app.ui.main_window - INFO - WordEditorDialog created successfully
+2026-03-13 19:09:23,713 - app.ui.dialogs.word_editor_dialog - INFO - Document has 2 paragraphs
+2026-03-13 19:09:23,718 - app.ui.dialogs.word_editor_dialog - INFO - Loaded 2 paragraphs successfully
+2026-03-13 19:09:23,720 - app.ui.dialogs.word_editor_dialog - INFO - === Starting _populate_editor ===
+2026-03-13 19:09:23,720 - app.ui.dialogs.word_editor_dialog - INFO - Text editor widget: .!wordeditordialog.!ctkframe2.!ctkframe2.!ctktextbox
+2026-03-13 19:09:23,721 - app.ui.dialogs.word_editor_dialog - INFO - Paragraph list frame: .!wordeditordialog.!ctkframe2.!ctkframe.!ctkframe.!canvas.!ctkscrollableframe
+2026-03-13 19:09:23,721 - app.ui.dialogs.word_editor_dialog - INFO - Paragraphs to load: 2
+2026-03-13 19:09:23,721 - app.ui.dialogs.word_editor_dialog - INFO - Clearing existing content...
+2026-03-13 19:09:23,721 - app.ui.dialogs.word_editor_dialog - INFO - Existing content cleared
+2026-03-13 19:09:23,725 - app.ui.dialogs.word_editor_dialog - INFO - Building editor text...
+2026-03-13 19:09:23,725 - app.ui.dialogs.word_editor_dialog - INFO - Full text length: 3 characters
+2026-03-13 19:09:23,725 - app.ui.dialogs.word_editor_dialog - INFO - Inserting text into editor...
+2026-03-13 19:09:23,726 - app.ui.dialogs.word_editor_dialog - INFO - Text inserted successfully
+2026-03-13 19:09:23,726 - app.ui.dialogs.word_editor_dialog - INFO - Setting status: 2 paragraphs loaded
+2026-03-13 19:09:23,727 - app.ui.dialogs.word_editor_dialog - INFO - === _populate_editor completed ===
+2026-03-13 19:11:48,015 - app.ui.main_window - INFO - === Starting PDF to Word conversion ===
+2026-03-13 19:11:48,016 - app.ui.main_window - INFO - PDF path: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:11:48,018 - app.ui.main_window - INFO - Starting conversion thread
+2026-03-13 19:11:48,019 - app.ui.main_window - INFO - Conversion thread started
+2026-03-13 19:11:48,019 - app.ui.main_window - INFO - Calling convert_to_temp...
+2026-03-13 19:11:48,019 - app.core.pdf_to_word_converter - INFO - === Converting to temporary file ===
+2026-03-13 19:11:48,019 - app.core.pdf_to_word_converter - INFO - Creating temporary file...
+2026-03-13 19:11:48,020 - app.core.pdf_to_word_converter - INFO - Temp file path: C:\Users\Rafael\AppData\Local\Temp\tmpshy5dhnx_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:11:48,020 - app.core.pdf_to_word_converter - INFO - Temp file removed for fresh creation
+2026-03-13 19:11:48,020 - app.core.pdf_to_word_converter - INFO - === Starting PDF to Word conversion ===
+2026-03-13 19:11:48,020 - app.core.pdf_to_word_converter - INFO - Input: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:11:48,020 - app.core.pdf_to_word_converter - INFO - Output: C:\Users\Rafael\AppData\Local\Temp\tmpshy5dhnx_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:11:48,020 - app.core.pdf_to_word_converter - INFO - Page range: 0-None
+2026-03-13 19:11:48,020 - app.core.pdf_to_word_converter - INFO - === Starting conversion process ===
+2026-03-13 19:11:48,020 - app.core.pdf_to_word_converter - INFO - Importing pdf2docx and PyMuPDF...
+2026-03-13 19:11:48,181 - app.core.pdf_to_word_converter - INFO - Libraries imported successfully
+2026-03-13 19:11:48,181 - app.core.pdf_to_word_converter - INFO - Opening PDF: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:11:48,182 - app.core.pdf_to_word_converter - INFO - PDF has 1 pages
+2026-03-13 19:11:48,182 - app.core.pdf_to_word_converter - INFO - Converting pages 0 to 1 (total: 1 pages)
+2026-03-13 19:11:48,182 - app.ui.main_window - DEBUG - Progress: 10.0% - Initializing conversion...
+2026-03-13 19:11:48,182 - app.ui.main_window - DEBUG - Progress: 20.0% - Converting 1 pages...
+2026-03-13 19:11:48,183 - app.core.pdf_to_word_converter - INFO - Creating pdf2docx Converter...
+2026-03-13 19:11:48,183 - app.core.pdf_to_word_converter - INFO - Converter created successfully
+2026-03-13 19:11:48,183 - app.ui.main_window - DEBUG - Progress: 30.0% - Processing PDF structure...
+2026-03-13 19:11:48,184 - app.core.pdf_to_word_converter - INFO - Starting pdf2docx conversion...
+2026-03-13 19:11:48,184 - root - INFO - Start to convert C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:11:48,184 - root - INFO - [1;36m[1/4] Opening document...[0m
+2026-03-13 19:11:48,184 - root - INFO - [1;36m[2/4] Analyzing document...[0m
+2026-03-13 19:11:48,265 - root - INFO - [1;36m[3/4] Parsing pages...[0m
+2026-03-13 19:11:48,265 - root - INFO - (1/1) Page 1
+2026-03-13 19:11:48,295 - root - INFO - [1;36m[4/4] Creating pages...[0m
+2026-03-13 19:11:48,313 - root - INFO - (1/1) Page 1
+2026-03-13 19:11:48,417 - root - INFO - Terminated in 0.23s.
+2026-03-13 19:11:48,417 - app.core.pdf_to_word_converter - INFO - Converter closed
+2026-03-13 19:11:48,417 - app.ui.main_window - DEBUG - Progress: 90.0% - Finalizing DOCX file...
+2026-03-13 19:11:48,418 - app.core.pdf_to_word_converter - INFO - Checking if output file exists: C:\Users\Rafael\AppData\Local\Temp\tmpshy5dhnx_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:11:48,418 - app.core.pdf_to_word_converter - INFO - Output file created successfully: 37833 bytes
+2026-03-13 19:11:48,418 - app.ui.main_window - DEBUG - Progress: 100.0% - Conversion complete!
+2026-03-13 19:11:48,418 - app.core.pdf_to_word_converter - INFO - Conversion completed: success=True
+2026-03-13 19:11:48,418 - app.core.pdf_to_word_converter - INFO - convert_to_temp result: success=True, output=C:\Users\Rafael\AppData\Local\Temp\tmpshy5dhnx_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:11:48,418 - app.ui.main_window - INFO - Conversion result: success=True, output=C:\Users\Rafael\AppData\Local\Temp\tmpshy5dhnx_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:11:48,419 - app.ui.main_window - INFO - === Conversion callback received ===
+2026-03-13 19:11:48,419 - app.ui.main_window - INFO - Result: success=True, output_path=C:\Users\Rafael\AppData\Local\Temp\tmpshy5dhnx_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:11:48,419 - app.ui.main_window - INFO - Pages: 1/1
+2026-03-13 19:11:48,420 - app.ui.main_window - INFO - Opening Word editor dialog with: C:\Users\Rafael\AppData\Local\Temp\tmpshy5dhnx_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:11:48,420 - app.ui.main_window - INFO - Creating WordEditorDialog...
+2026-03-13 19:11:48,420 - app.ui.dialogs.word_editor_dialog - INFO - === Initializing WordEditorDialog ===
+2026-03-13 19:11:48,420 - app.ui.dialogs.word_editor_dialog - INFO - DOCX path: C:\Users\Rafael\AppData\Local\Temp\tmpshy5dhnx_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:11:48,420 - app.ui.dialogs.word_editor_dialog - INFO - Original PDF path: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:11:48,424 - app.ui.dialogs.word_editor_dialog - INFO - Building UI...
+2026-03-13 19:11:48,478 - app.ui.dialogs.word_editor_dialog - INFO - UI built successfully
+2026-03-13 19:11:48,478 - app.ui.dialogs.word_editor_dialog - INFO - Loading DOCX file...
+2026-03-13 19:11:48,478 - app.ui.dialogs.word_editor_dialog - INFO - === Loading DOCX file ===
+2026-03-13 19:11:48,478 - app.ui.dialogs.word_editor_dialog - INFO - Starting DOCX loading thread
+2026-03-13 19:11:48,478 - app.ui.dialogs.word_editor_dialog - INFO - DOCX loading thread started
+2026-03-13 19:11:48,478 - app.ui.dialogs.word_editor_dialog - INFO - Importing python-docx...
+2026-03-13 19:11:48,479 - app.ui.dialogs.word_editor_dialog - INFO - python-docx imported successfully
+2026-03-13 19:11:48,479 - app.ui.dialogs.word_editor_dialog - INFO - Centering on parent...
+2026-03-13 19:11:48,479 - app.ui.dialogs.word_editor_dialog - INFO - Opening DOCX file: C:\Users\Rafael\AppData\Local\Temp\tmpshy5dhnx_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:11:48,479 - app.ui.dialogs.word_editor_dialog - INFO - WordEditorDialog initialized successfully
+2026-03-13 19:11:48,479 - app.ui.main_window - INFO - WordEditorDialog created successfully
+2026-03-13 19:11:48,543 - app.ui.dialogs.word_editor_dialog - INFO - Document has 2 paragraphs
+2026-03-13 19:11:48,548 - app.ui.dialogs.word_editor_dialog - INFO - Loaded 2 paragraphs successfully
+2026-03-13 19:11:48,548 - app.ui.dialogs.word_editor_dialog - INFO - Populating editor directly...
+2026-03-13 19:11:48,548 - app.ui.dialogs.word_editor_dialog - INFO - === Starting _populate_editor ===
+2026-03-13 19:11:48,548 - app.ui.dialogs.word_editor_dialog - INFO - Text editor widget: .!wordeditordialog.!ctkframe2.!ctkframe2.!ctktextbox
+2026-03-13 19:11:48,548 - app.ui.dialogs.word_editor_dialog - INFO - Paragraph list frame: .!wordeditordialog.!ctkframe2.!ctkframe.!ctkframe.!canvas.!ctkscrollableframe
+2026-03-13 19:11:48,548 - app.ui.dialogs.word_editor_dialog - INFO - Paragraphs to load: 2
+2026-03-13 19:11:48,548 - app.ui.dialogs.word_editor_dialog - INFO - Clearing existing content...
+2026-03-13 19:11:48,579 - app.ui.dialogs.word_editor_dialog - INFO - Existing content cleared
+2026-03-13 19:11:48,608 - app.ui.dialogs.word_editor_dialog - INFO - Building editor text...
+2026-03-13 19:11:48,608 - app.ui.dialogs.word_editor_dialog - INFO - Full text length: 3 characters
+2026-03-13 19:11:48,608 - app.ui.dialogs.word_editor_dialog - INFO - Inserting text into editor...
+2026-03-13 19:11:48,609 - app.ui.dialogs.word_editor_dialog - INFO - Text inserted successfully
+2026-03-13 19:11:48,612 - app.ui.dialogs.word_editor_dialog - INFO - Setting status: 2 paragraphs loaded
+2026-03-13 19:11:48,614 - app.ui.dialogs.word_editor_dialog - INFO - === _populate_editor completed ===
+2026-03-13 19:19:17,728 - app.ui.main_window - INFO - === Starting PDF to Word conversion ===
+2026-03-13 19:19:17,729 - app.ui.main_window - INFO - PDF path: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:19:17,730 - app.ui.main_window - INFO - Starting conversion thread
+2026-03-13 19:19:17,731 - app.ui.main_window - INFO - Conversion thread started
+2026-03-13 19:19:17,731 - app.ui.main_window - INFO - === _action_edit_as_word completed (thread started) ===
+2026-03-13 19:19:17,731 - app.ui.main_window - INFO - Calling convert_to_temp...
+2026-03-13 19:19:17,731 - app.core.pdf_to_word_converter - INFO - === Converting to temporary file ===
+2026-03-13 19:19:17,731 - app.core.pdf_to_word_converter - INFO - Creating temporary file...
+2026-03-13 19:19:17,733 - app.core.pdf_to_word_converter - INFO - Temp file path: C:\Users\Rafael\AppData\Local\Temp\tmp4_au7p83_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:19:17,733 - app.core.pdf_to_word_converter - INFO - Temp file removed for fresh creation
+2026-03-13 19:19:17,733 - app.core.pdf_to_word_converter - INFO - === Starting PDF to Word conversion ===
+2026-03-13 19:19:17,733 - app.core.pdf_to_word_converter - INFO - Input: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:19:17,733 - app.core.pdf_to_word_converter - INFO - Output: C:\Users\Rafael\AppData\Local\Temp\tmp4_au7p83_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:19:17,733 - app.core.pdf_to_word_converter - INFO - Page range: 0-None
+2026-03-13 19:19:17,733 - app.core.pdf_to_word_converter - INFO - === Starting conversion process ===
+2026-03-13 19:19:17,733 - app.core.pdf_to_word_converter - INFO - Importing pdf2docx and PyMuPDF...
+2026-03-13 19:19:17,932 - app.core.pdf_to_word_converter - INFO - Libraries imported successfully
+2026-03-13 19:19:17,932 - app.core.pdf_to_word_converter - INFO - Opening PDF: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:19:17,934 - app.core.pdf_to_word_converter - INFO - PDF has 1 pages
+2026-03-13 19:19:17,934 - app.core.pdf_to_word_converter - INFO - Converting pages 0 to 1 (total: 1 pages)
+2026-03-13 19:19:17,934 - app.ui.main_window - DEBUG - Progress: 10.0% - Initializing conversion...
+2026-03-13 19:19:17,935 - app.ui.main_window - DEBUG - Progress: 20.0% - Converting 1 pages...
+2026-03-13 19:19:17,935 - app.core.pdf_to_word_converter - INFO - Creating pdf2docx Converter...
+2026-03-13 19:19:17,935 - app.core.pdf_to_word_converter - INFO - Converter created successfully
+2026-03-13 19:19:17,936 - app.ui.main_window - DEBUG - Progress: 30.0% - Processing PDF structure...
+2026-03-13 19:19:17,936 - app.core.pdf_to_word_converter - INFO - Starting pdf2docx conversion...
+2026-03-13 19:19:17,936 - root - INFO - Start to convert C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:19:17,937 - root - INFO - [1;36m[1/4] Opening document...[0m
+2026-03-13 19:19:17,937 - root - INFO - [1;36m[2/4] Analyzing document...[0m
+2026-03-13 19:19:18,101 - root - INFO - [1;36m[3/4] Parsing pages...[0m
+2026-03-13 19:19:18,102 - root - INFO - (1/1) Page 1
+2026-03-13 19:19:18,135 - root - INFO - [1;36m[4/4] Creating pages...[0m
+2026-03-13 19:19:18,381 - root - INFO - (1/1) Page 1
+2026-03-13 19:19:18,507 - root - INFO - Terminated in 0.57s.
+2026-03-13 19:19:18,508 - app.core.pdf_to_word_converter - INFO - Converter closed
+2026-03-13 19:19:18,508 - app.ui.main_window - DEBUG - Progress: 90.0% - Finalizing DOCX file...
+2026-03-13 19:19:18,508 - app.core.pdf_to_word_converter - INFO - Checking if output file exists: C:\Users\Rafael\AppData\Local\Temp\tmp4_au7p83_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:19:18,508 - app.core.pdf_to_word_converter - INFO - Output file created successfully: 37833 bytes
+2026-03-13 19:19:18,508 - app.ui.main_window - DEBUG - Progress: 100.0% - Conversion complete!
+2026-03-13 19:19:18,509 - app.core.pdf_to_word_converter - INFO - Conversion completed: success=True
+2026-03-13 19:19:18,509 - app.core.pdf_to_word_converter - INFO - convert_to_temp result: success=True, output=C:\Users\Rafael\AppData\Local\Temp\tmp4_au7p83_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:19:18,509 - app.ui.main_window - INFO - Conversion result: success=True, output=C:\Users\Rafael\AppData\Local\Temp\tmp4_au7p83_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:19:18,510 - app.ui.main_window - INFO - === Conversion callback received ===
+2026-03-13 19:19:18,510 - app.ui.main_window - INFO - Result: success=True, output_path=C:\Users\Rafael\AppData\Local\Temp\tmp4_au7p83_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:19:18,510 - app.ui.main_window - INFO - Pages: 1/1
+2026-03-13 19:19:18,511 - app.ui.main_window - INFO - Opening Word editor dialog with: C:\Users\Rafael\AppData\Local\Temp\tmp4_au7p83_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:19:18,512 - app.ui.main_window - INFO - Creating WordEditorDialog...
+2026-03-13 19:19:18,512 - app.ui.dialogs.word_editor_dialog - INFO - === Initializing WordEditorDialog ===
+2026-03-13 19:19:18,512 - app.ui.dialogs.word_editor_dialog - INFO - DOCX path: C:\Users\Rafael\AppData\Local\Temp\tmp4_au7p83_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:19:18,512 - app.ui.dialogs.word_editor_dialog - INFO - Original PDF path: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:19:18,517 - app.ui.dialogs.word_editor_dialog - INFO - Building UI...
+2026-03-13 19:19:18,517 - app.ui.dialogs.word_editor_dialog - INFO - === Starting _build_ui ===
+2026-03-13 19:19:18,517 - app.ui.dialogs.word_editor_dialog - INFO - Dialog window: .!wordeditordialog
+2026-03-13 19:19:18,517 - app.ui.dialogs.word_editor_dialog - INFO - Dialog geometry: 160x160+64+64
+2026-03-13 19:19:18,517 - app.ui.dialogs.word_editor_dialog - INFO - Grid configuration complete
+2026-03-13 19:19:18,546 - app.ui.dialogs.word_editor_dialog - INFO - === Starting _build_paragraph_panel ===
+2026-03-13 19:19:18,550 - app.ui.dialogs.word_editor_dialog - INFO - === _build_paragraph_panel completed ===
+2026-03-13 19:19:18,550 - app.ui.dialogs.word_editor_dialog - INFO - === _build_paragraph_panel completed ===
+2026-03-13 19:19:18,550 - app.ui.dialogs.word_editor_dialog - INFO - === Starting _build_editor_panel ===
+2026-03-13 19:19:18,578 - app.ui.dialogs.word_editor_dialog - INFO - === _build_editor_panel completed ===
+2026-03-13 19:19:18,578 - app.ui.dialogs.word_editor_dialog - INFO - === _build_editor_panel completed ===
+2026-03-13 19:19:18,580 - app.ui.dialogs.word_editor_dialog - INFO - === _build_ui completed ===
+2026-03-13 19:19:18,580 - app.ui.dialogs.word_editor_dialog - INFO - UI built successfully
+2026-03-13 19:19:18,580 - app.ui.dialogs.word_editor_dialog - INFO - Loading DOCX file...
+2026-03-13 19:19:18,580 - app.ui.dialogs.word_editor_dialog - INFO - === Loading DOCX file ===
+2026-03-13 19:19:18,580 - app.ui.dialogs.word_editor_dialog - INFO - Starting DOCX loading thread
+2026-03-13 19:19:18,581 - app.ui.dialogs.word_editor_dialog - INFO - DOCX loading thread started
+2026-03-13 19:19:18,581 - app.ui.dialogs.word_editor_dialog - INFO - === _load_docx completed (thread started) ===
+2026-03-13 19:19:18,581 - app.ui.dialogs.word_editor_dialog - INFO - Importing python-docx...
+2026-03-13 19:19:18,581 - app.ui.dialogs.word_editor_dialog - INFO - === WordEditorDialog __init__ completed ===
+2026-03-13 19:19:18,581 - app.ui.dialogs.word_editor_dialog - INFO - python-docx imported successfully
+2026-03-13 19:19:18,581 - app.ui.main_window - INFO - WordEditorDialog created successfully
+2026-03-13 19:19:18,581 - app.ui.dialogs.word_editor_dialog - INFO - Opening DOCX file: C:\Users\Rafael\AppData\Local\Temp\tmp4_au7p83_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:19:18,582 - app.ui.main_window - INFO - === _on_pdf_conversion_done completed ===
+2026-03-13 19:19:18,640 - app.ui.dialogs.word_editor_dialog - INFO - Document has 2 paragraphs
+2026-03-13 19:19:18,646 - app.ui.dialogs.word_editor_dialog - INFO - Loaded 2 paragraphs successfully
+2026-03-13 19:19:18,646 - app.ui.dialogs.word_editor_dialog - INFO - Populating editor directly...
+2026-03-13 19:19:18,646 - app.ui.dialogs.word_editor_dialog - INFO - === Starting _populate_editor ===
+2026-03-13 19:19:18,646 - app.ui.dialogs.word_editor_dialog - INFO - Text editor widget: .!wordeditordialog.!ctkframe2.!ctkframe2.!ctktextbox
+2026-03-13 19:19:18,646 - app.ui.dialogs.word_editor_dialog - INFO - Paragraph list frame: .!wordeditordialog.!ctkframe2.!ctkframe.!ctkframe.!canvas.!ctkscrollableframe
+2026-03-13 19:19:18,646 - app.ui.dialogs.word_editor_dialog - INFO - Paragraphs to load: 2
+2026-03-13 19:19:18,646 - app.ui.dialogs.word_editor_dialog - INFO - Clearing existing content...
+2026-03-13 19:19:18,647 - app.ui.dialogs.word_editor_dialog - INFO - Existing content cleared
+2026-03-13 19:19:18,751 - app.ui.dialogs.word_editor_dialog - INFO - Building editor text...
+2026-03-13 19:19:18,751 - app.ui.dialogs.word_editor_dialog - INFO - === Starting _build_editor_text ===
+2026-03-13 19:19:18,751 - app.ui.dialogs.word_editor_dialog - INFO - Paragraph 0: style=Normal, text_length=0, text_preview=<empty>
+2026-03-13 19:19:18,751 - app.ui.dialogs.word_editor_dialog - INFO - Paragraph 1: style=Normal, text_length=0, text_preview=<empty>
+2026-03-13 19:19:18,751 - app.ui.dialogs.word_editor_dialog - INFO - === _build_editor_text completed ===
+2026-03-13 19:19:18,751 - app.ui.dialogs.word_editor_dialog - INFO - Final text length: 3 characters
+2026-03-13 19:19:18,751 - app.ui.dialogs.word_editor_dialog - INFO - Final text preview: 
+
+
+
+2026-03-13 19:19:18,751 - app.ui.dialogs.word_editor_dialog - INFO - Full text length: 3 characters
+2026-03-13 19:19:18,751 - app.ui.dialogs.word_editor_dialog - INFO - Inserting text into editor...
+2026-03-13 19:19:18,752 - app.ui.dialogs.word_editor_dialog - INFO - Text inserted successfully
+2026-03-13 19:19:18,758 - app.ui.dialogs.word_editor_dialog - INFO - Setting status: 2 paragraphs loaded
+2026-03-13 19:19:18,760 - app.ui.dialogs.word_editor_dialog - INFO - === _populate_editor completed ===
+2026-03-13 19:31:17,025 - app.ui.main_window - INFO - === Starting PDF to Word conversion ===
+2026-03-13 19:31:17,028 - app.ui.main_window - INFO - PDF path: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:31:17,030 - app.ui.main_window - INFO - Starting conversion thread
+2026-03-13 19:31:17,038 - app.ui.main_window - INFO - Conversion thread started
+2026-03-13 19:31:17,038 - app.ui.main_window - INFO - === _action_edit_as_word completed (thread started) ===
+2026-03-13 19:31:17,039 - app.ui.main_window - INFO - Calling convert_to_temp...
+2026-03-13 19:31:17,040 - app.core.pdf_to_word_converter - INFO - === Converting to temporary file ===
+2026-03-13 19:31:17,040 - app.core.pdf_to_word_converter - INFO - Creating temporary file...
+2026-03-13 19:31:17,045 - app.core.pdf_to_word_converter - INFO - Temp file path: C:\Users\Rafael\AppData\Local\Temp\tmp1sfd5e9__Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:31:17,045 - app.core.pdf_to_word_converter - INFO - Temp file removed for fresh creation
+2026-03-13 19:31:17,045 - app.core.pdf_to_word_converter - INFO - === Starting PDF to Word conversion ===
+2026-03-13 19:31:17,045 - app.core.pdf_to_word_converter - INFO - Input: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:31:17,045 - app.core.pdf_to_word_converter - INFO - Output: C:\Users\Rafael\AppData\Local\Temp\tmp1sfd5e9__Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:31:17,045 - app.core.pdf_to_word_converter - INFO - Page range: 0-None
+2026-03-13 19:31:17,046 - app.core.pdf_to_word_converter - INFO - === Starting conversion process ===
+2026-03-13 19:31:17,046 - app.core.pdf_to_word_converter - INFO - Importing pdf2docx and PyMuPDF...
+2026-03-13 19:31:18,934 - app.core.pdf_to_word_converter - INFO - Libraries imported successfully
+2026-03-13 19:31:18,934 - app.core.pdf_to_word_converter - INFO - Opening PDF: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:31:18,941 - app.core.pdf_to_word_converter - INFO - PDF has 1 pages
+2026-03-13 19:31:18,941 - app.core.pdf_to_word_converter - INFO - Converting pages 0 to 1 (total: 1 pages)
+2026-03-13 19:31:18,941 - app.ui.main_window - DEBUG - Progress: 10.0% - Initializing conversion...
+2026-03-13 19:31:18,942 - app.ui.main_window - DEBUG - Progress: 20.0% - Converting 1 pages...
+2026-03-13 19:31:18,943 - app.core.pdf_to_word_converter - INFO - Creating pdf2docx Converter...
+2026-03-13 19:31:18,944 - app.core.pdf_to_word_converter - INFO - Converter created successfully
+2026-03-13 19:31:18,944 - app.ui.main_window - DEBUG - Progress: 30.0% - Processing PDF structure...
+2026-03-13 19:31:18,945 - app.core.pdf_to_word_converter - INFO - Starting pdf2docx conversion...
+2026-03-13 19:31:18,945 - root - INFO - Start to convert C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:31:18,946 - root - INFO - [1;36m[1/4] Opening document...[0m
+2026-03-13 19:31:18,946 - root - INFO - [1;36m[2/4] Analyzing document...[0m
+2026-03-13 19:31:19,158 - root - INFO - [1;36m[3/4] Parsing pages...[0m
+2026-03-13 19:31:19,158 - root - INFO - (1/1) Page 1
+2026-03-13 19:31:19,187 - root - INFO - [1;36m[4/4] Creating pages...[0m
+2026-03-13 19:31:19,283 - root - INFO - (1/1) Page 1
+2026-03-13 19:31:19,445 - root - INFO - Terminated in 0.50s.
+2026-03-13 19:31:19,445 - app.core.pdf_to_word_converter - INFO - Converter closed
+2026-03-13 19:31:19,446 - app.ui.main_window - DEBUG - Progress: 90.0% - Finalizing DOCX file...
+2026-03-13 19:31:19,446 - app.core.pdf_to_word_converter - INFO - Checking if output file exists: C:\Users\Rafael\AppData\Local\Temp\tmp1sfd5e9__Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:31:19,446 - app.core.pdf_to_word_converter - INFO - Output file created successfully: 37833 bytes
+2026-03-13 19:31:19,446 - app.ui.main_window - DEBUG - Progress: 100.0% - Conversion complete!
+2026-03-13 19:31:19,447 - app.core.pdf_to_word_converter - INFO - Conversion completed: success=True
+2026-03-13 19:31:19,447 - app.core.pdf_to_word_converter - INFO - convert_to_temp result: success=True, output=C:\Users\Rafael\AppData\Local\Temp\tmp1sfd5e9__Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:31:23,366 - app.ui.main_window - INFO - Conversion result: success=True, output=C:\Users\Rafael\AppData\Local\Temp\tmp1sfd5e9__Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:31:23,367 - app.ui.main_window - INFO - === Conversion callback received ===
+2026-03-13 19:31:23,367 - app.ui.main_window - INFO - Result: success=True, output_path=C:\Users\Rafael\AppData\Local\Temp\tmp1sfd5e9__Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:31:23,367 - app.ui.main_window - INFO - Pages: 1/1
+2026-03-13 19:31:23,371 - app.ui.main_window - INFO - Opening Word editor dialog with: C:\Users\Rafael\AppData\Local\Temp\tmp1sfd5e9__Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:31:23,371 - app.ui.main_window - INFO - Creating WordEditorDialog...
+2026-03-13 19:31:23,371 - app.ui.dialogs.word_editor_dialog - INFO - === Initializing WordEditorDialog ===
+2026-03-13 19:31:23,371 - app.ui.dialogs.word_editor_dialog - INFO - DOCX path: C:\Users\Rafael\AppData\Local\Temp\tmp1sfd5e9__Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:31:23,371 - app.ui.dialogs.word_editor_dialog - INFO - Original PDF path: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 19:31:23,379 - app.ui.dialogs.word_editor_dialog - INFO - Building UI...
+2026-03-13 19:31:23,380 - app.ui.dialogs.word_editor_dialog - INFO - === Starting _build_ui ===
+2026-03-13 19:31:23,380 - app.ui.dialogs.word_editor_dialog - INFO - Dialog window: .!wordeditordialog
+2026-03-13 19:31:23,380 - app.ui.dialogs.word_editor_dialog - INFO - Dialog geometry: 160x160+32+32
+2026-03-13 19:31:23,380 - app.ui.dialogs.word_editor_dialog - INFO - Grid configuration complete
+2026-03-13 19:31:23,473 - app.ui.dialogs.word_editor_dialog - INFO - === Starting _build_paragraph_panel ===
+2026-03-13 19:31:23,477 - app.ui.dialogs.word_editor_dialog - INFO - === _build_paragraph_panel completed ===
+2026-03-13 19:31:23,477 - app.ui.dialogs.word_editor_dialog - INFO - === _build_paragraph_panel completed ===
+2026-03-13 19:31:23,477 - app.ui.dialogs.word_editor_dialog - INFO - === Starting _build_editor_panel ===
+2026-03-13 19:31:23,515 - app.ui.dialogs.word_editor_dialog - INFO - === _build_editor_panel completed ===
+2026-03-13 19:31:23,515 - app.ui.dialogs.word_editor_dialog - INFO - === _build_editor_panel completed ===
+2026-03-13 19:31:23,517 - app.ui.dialogs.word_editor_dialog - INFO - === _build_ui completed ===
+2026-03-13 19:31:23,517 - app.ui.dialogs.word_editor_dialog - INFO - UI built successfully
+2026-03-13 19:31:23,518 - app.ui.dialogs.word_editor_dialog - INFO - Loading DOCX file...
+2026-03-13 19:31:23,518 - app.ui.dialogs.word_editor_dialog - INFO - === Loading DOCX file ===
+2026-03-13 19:31:23,518 - app.ui.dialogs.word_editor_dialog - INFO - Starting DOCX loading thread
+2026-03-13 19:31:23,518 - app.ui.dialogs.word_editor_dialog - INFO - DOCX loading thread started
+2026-03-13 19:31:23,518 - app.ui.dialogs.word_editor_dialog - INFO - Importing python-docx...
+2026-03-13 19:31:23,518 - app.ui.dialogs.word_editor_dialog - INFO - python-docx imported successfully
+2026-03-13 19:31:23,518 - app.ui.dialogs.word_editor_dialog - INFO - Opening DOCX file: C:\Users\Rafael\AppData\Local\Temp\tmp1sfd5e9__Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 19:31:23,518 - app.ui.dialogs.word_editor_dialog - INFO - === _load_docx completed (thread started) ===
+2026-03-13 19:31:23,518 - app.ui.dialogs.word_editor_dialog - INFO - === WordEditorDialog __init__ completed ===
+2026-03-13 19:31:23,519 - app.ui.main_window - INFO - WordEditorDialog created successfully
+2026-03-13 19:31:23,519 - app.ui.main_window - INFO - === _on_pdf_conversion_done completed ===
+2026-03-13 19:31:23,537 - app.ui.dialogs.word_editor_dialog - INFO - === Ensuring correct geometry ===
+2026-03-13 19:31:23,538 - app.ui.dialogs.word_editor_dialog - INFO - Current geometry: 900x700+32+32
+2026-03-13 19:31:23,538 - app.ui.dialogs.word_editor_dialog - INFO - Geometry is correct: 900x700+32+32
+2026-03-13 19:31:23,850 - app.ui.dialogs.word_editor_dialog - INFO - Document has 2 paragraphs
+2026-03-13 19:31:23,852 - app.ui.dialogs.word_editor_dialog - INFO - Loaded 2 paragraphs successfully
+2026-03-13 19:31:23,852 - app.ui.dialogs.word_editor_dialog - INFO - Populating editor directly...
+2026-03-13 19:31:23,852 - app.ui.dialogs.word_editor_dialog - INFO - === Starting _populate_editor ===
+2026-03-13 19:31:23,852 - app.ui.dialogs.word_editor_dialog - INFO - Text editor widget: .!wordeditordialog.!ctkframe2.!ctkframe2.!ctktextbox
+2026-03-13 19:31:23,852 - app.ui.dialogs.word_editor_dialog - INFO - Paragraph list frame: .!wordeditordialog.!ctkframe2.!ctkframe.!ctkframe.!canvas.!ctkscrollableframe
+2026-03-13 19:31:23,852 - app.ui.dialogs.word_editor_dialog - INFO - Paragraphs to load: 2
+2026-03-13 19:31:23,852 - app.ui.dialogs.word_editor_dialog - INFO - Clearing existing content...
+2026-03-13 19:31:23,852 - app.ui.dialogs.word_editor_dialog - INFO - Existing content cleared
+2026-03-13 19:31:23,865 - app.ui.dialogs.word_editor_dialog - INFO - Building editor text...
+2026-03-13 19:31:23,865 - app.ui.dialogs.word_editor_dialog - INFO - === Starting _build_editor_text ===
+2026-03-13 19:31:23,865 - app.ui.dialogs.word_editor_dialog - INFO - Paragraph 0: style=Normal, text_length=0, text_preview=<empty>
+2026-03-13 19:31:23,866 - app.ui.dialogs.word_editor_dialog - INFO - Paragraph 1: style=Normal, text_length=0, text_preview=<empty>
+2026-03-13 19:31:23,866 - app.ui.dialogs.word_editor_dialog - INFO - === _build_editor_text completed ===
+2026-03-13 19:31:23,866 - app.ui.dialogs.word_editor_dialog - INFO - Final text length: 3 characters
+2026-03-13 19:31:23,866 - app.ui.dialogs.word_editor_dialog - INFO - Final text preview: 
+
+
+
+2026-03-13 19:31:23,866 - app.ui.dialogs.word_editor_dialog - INFO - Full text length: 3 characters
+2026-03-13 19:31:23,866 - app.ui.dialogs.word_editor_dialog - INFO - Inserting text into editor...
+2026-03-13 19:31:23,869 - app.ui.dialogs.word_editor_dialog - INFO - Text inserted successfully
+2026-03-13 19:31:23,873 - app.ui.dialogs.word_editor_dialog - INFO - Setting status: 2 paragraphs loaded
+2026-03-13 19:31:23,874 - app.ui.dialogs.word_editor_dialog - INFO - === _populate_editor completed ===
+2026-03-13 20:15:16,848 - app.ui.main_window - INFO - === Starting PDF to Word conversion ===
+2026-03-13 20:15:16,849 - app.ui.main_window - INFO - PDF path: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 20:15:16,850 - app.ui.main_window - INFO - Starting conversion thread
+2026-03-13 20:15:16,852 - app.ui.main_window - INFO - Conversion thread started
+2026-03-13 20:15:16,852 - app.ui.main_window - INFO - === _action_edit_as_word completed (thread started) ===
+2026-03-13 20:15:16,852 - app.ui.main_window - INFO - Calling convert_to_temp...
+2026-03-13 20:15:16,852 - app.core.pdf_to_word_converter - INFO - === Converting to temporary file ===
+2026-03-13 20:15:16,852 - app.core.pdf_to_word_converter - INFO - Creating temporary file...
+2026-03-13 20:15:16,855 - app.core.pdf_to_word_converter - INFO - Temp file path: C:\Users\Rafael\AppData\Local\Temp\tmpihj1w6xq_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 20:15:16,856 - app.core.pdf_to_word_converter - INFO - Temp file removed for fresh creation
+2026-03-13 20:15:16,856 - app.core.pdf_to_word_converter - INFO - === Starting PDF to Word conversion ===
+2026-03-13 20:15:16,856 - app.core.pdf_to_word_converter - INFO - Input: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 20:15:16,856 - app.core.pdf_to_word_converter - INFO - Output: C:\Users\Rafael\AppData\Local\Temp\tmpihj1w6xq_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 20:15:16,856 - app.core.pdf_to_word_converter - INFO - Page range: 0-None
+2026-03-13 20:15:16,856 - app.core.pdf_to_word_converter - INFO - === Starting conversion process ===
+2026-03-13 20:15:16,856 - app.core.pdf_to_word_converter - INFO - Importing pdf2docx and PyMuPDF...
+2026-03-13 20:15:17,068 - app.core.pdf_to_word_converter - INFO - Libraries imported successfully
+2026-03-13 20:15:17,068 - app.core.pdf_to_word_converter - INFO - Opening PDF: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 20:15:17,069 - app.core.pdf_to_word_converter - INFO - PDF has 1 pages
+2026-03-13 20:15:17,070 - app.core.pdf_to_word_converter - INFO - Converting pages 0 to 1 (total: 1 pages)
+2026-03-13 20:15:17,070 - app.ui.main_window - DEBUG - Progress: 10.0% - Initializing conversion...
+2026-03-13 20:15:17,070 - app.ui.main_window - DEBUG - Progress: 20.0% - Converting 1 pages...
+2026-03-13 20:15:17,071 - app.core.pdf_to_word_converter - INFO - Creating pdf2docx Converter...
+2026-03-13 20:15:17,072 - app.core.pdf_to_word_converter - INFO - Converter created successfully
+2026-03-13 20:15:17,072 - app.ui.main_window - DEBUG - Progress: 30.0% - Processing PDF structure...
+2026-03-13 20:15:17,073 - app.core.pdf_to_word_converter - INFO - Starting pdf2docx conversion...
+2026-03-13 20:15:17,073 - root - INFO - Start to convert C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 20:15:17,073 - root - INFO - [1;36m[1/4] Opening document...[0m
+2026-03-13 20:15:17,073 - root - INFO - [1;36m[2/4] Analyzing document...[0m
+2026-03-13 20:15:17,163 - root - INFO - [1;36m[3/4] Parsing pages...[0m
+2026-03-13 20:15:17,163 - root - INFO - (1/1) Page 1
+2026-03-13 20:15:17,191 - root - INFO - [1;36m[4/4] Creating pages...[0m
+2026-03-13 20:15:17,338 - root - INFO - (1/1) Page 1
+2026-03-13 20:15:17,457 - root - INFO - Terminated in 0.38s.
+2026-03-13 20:15:17,457 - app.core.pdf_to_word_converter - INFO - Converter closed
+2026-03-13 20:15:17,457 - app.ui.main_window - DEBUG - Progress: 90.0% - Finalizing DOCX file...
+2026-03-13 20:15:17,457 - app.core.pdf_to_word_converter - INFO - Checking if output file exists: C:\Users\Rafael\AppData\Local\Temp\tmpihj1w6xq_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 20:15:17,458 - app.core.pdf_to_word_converter - INFO - Output file created successfully: 37833 bytes
+2026-03-13 20:15:17,458 - app.ui.main_window - DEBUG - Progress: 100.0% - Conversion complete!
+2026-03-13 20:15:17,458 - app.core.pdf_to_word_converter - INFO - Conversion completed: success=True
+2026-03-13 20:15:17,458 - app.core.pdf_to_word_converter - INFO - convert_to_temp result: success=True, output=C:\Users\Rafael\AppData\Local\Temp\tmpihj1w6xq_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 20:15:17,458 - app.ui.main_window - INFO - Conversion result: success=True, output=C:\Users\Rafael\AppData\Local\Temp\tmpihj1w6xq_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 20:15:17,459 - app.ui.main_window - INFO - === Conversion callback received ===
+2026-03-13 20:15:17,460 - app.ui.main_window - INFO - Result: success=True, output_path=C:\Users\Rafael\AppData\Local\Temp\tmpihj1w6xq_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 20:15:17,460 - app.ui.main_window - INFO - Pages: 1/1
+2026-03-13 20:15:17,460 - app.ui.main_window - INFO - Opening Word editor dialog with: C:\Users\Rafael\AppData\Local\Temp\tmpihj1w6xq_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 20:15:17,461 - app.ui.main_window - INFO - Creating WordEditorDialog...
+2026-03-13 20:15:17,461 - app.ui.dialogs.word_editor_dialog - INFO - === Initializing WordEditorDialog ===
+2026-03-13 20:15:17,461 - app.ui.dialogs.word_editor_dialog - INFO - DOCX path: C:\Users\Rafael\AppData\Local\Temp\tmpihj1w6xq_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 20:15:17,461 - app.ui.dialogs.word_editor_dialog - INFO - Original PDF path: C:/Users/Rafael/Documents/Eliane Projeto/Relatorio_ContasPagar_20251129.pdf
+2026-03-13 20:15:17,465 - app.ui.dialogs.word_editor_dialog - INFO - Building UI...
+2026-03-13 20:15:17,465 - app.ui.dialogs.word_editor_dialog - INFO - === Starting _build_ui ===
+2026-03-13 20:15:17,465 - app.ui.dialogs.word_editor_dialog - INFO - Dialog window: .!wordeditordialog
+2026-03-13 20:15:17,465 - app.ui.dialogs.word_editor_dialog - INFO - Dialog geometry: 160x160+96+96
+2026-03-13 20:15:17,465 - app.ui.dialogs.word_editor_dialog - INFO - Grid configuration complete
+2026-03-13 20:15:17,488 - app.ui.dialogs.word_editor_dialog - INFO - === Starting _build_paragraph_panel ===
+2026-03-13 20:15:17,491 - app.ui.dialogs.word_editor_dialog - INFO - === _build_paragraph_panel completed ===
+2026-03-13 20:15:17,491 - app.ui.dialogs.word_editor_dialog - INFO - === _build_paragraph_panel completed ===
+2026-03-13 20:15:17,491 - app.ui.dialogs.word_editor_dialog - INFO - === Starting _build_editor_panel ===
+2026-03-13 20:15:17,515 - app.ui.dialogs.word_editor_dialog - INFO - === _build_editor_panel completed ===
+2026-03-13 20:15:17,515 - app.ui.dialogs.word_editor_dialog - INFO - === _build_editor_panel completed ===
+2026-03-13 20:15:17,517 - app.ui.dialogs.word_editor_dialog - INFO - === _build_ui completed ===
+2026-03-13 20:15:17,517 - app.ui.dialogs.word_editor_dialog - INFO - UI built successfully
+2026-03-13 20:15:17,517 - app.ui.dialogs.word_editor_dialog - INFO - Loading DOCX file...
+2026-03-13 20:15:17,517 - app.ui.dialogs.word_editor_dialog - INFO - === Loading DOCX file ===
+2026-03-13 20:15:17,517 - app.ui.dialogs.word_editor_dialog - INFO - Starting DOCX loading thread
+2026-03-13 20:15:17,518 - app.ui.dialogs.word_editor_dialog - INFO - DOCX loading thread started
+2026-03-13 20:15:17,518 - app.ui.dialogs.word_editor_dialog - INFO - === _load_docx completed (thread started) ===
+2026-03-13 20:15:17,518 - app.ui.dialogs.word_editor_dialog - INFO - Importing python-docx...
+2026-03-13 20:15:17,518 - app.ui.dialogs.word_editor_dialog - INFO - === WordEditorDialog __init__ completed ===
+2026-03-13 20:15:17,518 - app.ui.dialogs.word_editor_dialog - INFO - python-docx imported successfully
+2026-03-13 20:15:17,518 - app.ui.main_window - INFO - WordEditorDialog created successfully
+2026-03-13 20:15:17,518 - app.ui.dialogs.word_editor_dialog - INFO - Opening DOCX file: C:\Users\Rafael\AppData\Local\Temp\tmpihj1w6xq_Relatorio_ContasPagar_20251129_edit.docx
+2026-03-13 20:15:17,518 - app.ui.main_window - INFO - === _on_pdf_conversion_done completed ===
+2026-03-13 20:15:17,573 - app.ui.dialogs.word_editor_dialog - INFO - === Ensuring correct geometry ===
+2026-03-13 20:15:17,573 - app.ui.dialogs.word_editor_dialog - INFO - Current geometry: 900x700+96+96
+2026-03-13 20:15:17,573 - app.ui.dialogs.word_editor_dialog - INFO - Geometry is correct: 900x700+96+96
+2026-03-13 20:15:17,586 - app.ui.dialogs.word_editor_dialog - INFO - Document has 2 paragraphs
+2026-03-13 20:15:17,593 - app.ui.dialogs.word_editor_dialog - INFO - Loaded 2 paragraphs successfully
+2026-03-13 20:15:17,593 - app.ui.dialogs.word_editor_dialog - INFO - Scheduling editor population on main thread...
+2026-03-13 20:15:17,625 - app.ui.dialogs.word_editor_dialog - INFO - === Starting _populate_editor ===
+2026-03-13 20:15:17,625 - app.ui.dialogs.word_editor_dialog - INFO - Text editor widget: .!wordeditordialog.!ctkframe2.!ctkframe2.!ctktextbox
+2026-03-13 20:15:17,625 - app.ui.dialogs.word_editor_dialog - INFO - Paragraph list frame: .!wordeditordialog.!ctkframe2.!ctkframe.!ctkframe.!canvas.!ctkscrollableframe
+2026-03-13 20:15:17,625 - app.ui.dialogs.word_editor_dialog - INFO - Paragraphs to load: 2
+2026-03-13 20:15:17,625 - app.ui.dialogs.word_editor_dialog - INFO - Clearing existing content...
+2026-03-13 20:15:17,626 - app.ui.dialogs.word_editor_dialog - INFO - Existing content cleared
+2026-03-13 20:15:17,629 - app.ui.dialogs.word_editor_dialog - INFO - Building editor text...
+2026-03-13 20:15:17,629 - app.ui.dialogs.word_editor_dialog - INFO - === Starting _build_editor_text ===
+2026-03-13 20:15:17,629 - app.ui.dialogs.word_editor_dialog - INFO - Paragraph 0: style=Normal, text_length=0, text_preview=<empty>
+2026-03-13 20:15:17,629 - app.ui.dialogs.word_editor_dialog - INFO - Paragraph 1: style=Normal, text_length=0, text_preview=<empty>
+2026-03-13 20:15:17,629 - app.ui.dialogs.word_editor_dialog - INFO - === _build_editor_text completed ===
+2026-03-13 20:15:17,629 - app.ui.dialogs.word_editor_dialog - INFO - Final text length: 3 characters
+2026-03-13 20:15:17,629 - app.ui.dialogs.word_editor_dialog - INFO - Final text preview: 
+
+
+
+2026-03-13 20:15:17,629 - app.ui.dialogs.word_editor_dialog - INFO - Full text length: 3 characters
+2026-03-13 20:15:17,629 - app.ui.dialogs.word_editor_dialog - INFO - Inserting text into editor...
+2026-03-13 20:15:17,629 - app.ui.dialogs.word_editor_dialog - INFO - Text inserted successfully
+2026-03-13 20:15:17,629 - app.ui.dialogs.word_editor_dialog - INFO - Setting status: 2 paragraphs loaded
+2026-03-13 20:15:17,630 - app.ui.dialogs.word_editor_dialog - WARNING - All paragraphs are empty after conversion
+2026-03-13 20:15:26,133 - app.ui.dialogs.word_editor_dialog - INFO - === _populate_editor completed ===
+2026-03-13 21:08:59,470 - root - INFO - Start to convert C:\Users\Rafael\AppData\Local\Temp\tmpvztkr042.pdf
+2026-03-13 21:08:59,472 - root - INFO - [1;36m[1/4] Opening document...[0m
+2026-03-13 21:08:59,472 - root - INFO - [1;36m[2/4] Analyzing document...[0m
+2026-03-13 21:08:59,647 - root - INFO - [1;36m[3/4] Parsing pages...[0m
+2026-03-13 21:08:59,647 - root - INFO - (1/1) Page 1
+2026-03-13 21:08:59,676 - root - INFO - [1;36m[4/4] Creating pages...[0m
+2026-03-13 21:08:59,752 - root - INFO - (1/1) Page 1
+2026-03-13 21:08:59,867 - root - INFO - Terminated in 0.40s.
